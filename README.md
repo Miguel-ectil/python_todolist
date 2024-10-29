@@ -1,1 +1,1 @@
-# python_todolist
+# Gerenciador de tarefas, será feito em python com SQLAlchimy
