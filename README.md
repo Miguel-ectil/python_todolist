@@ -16,3 +16,8 @@ Este projeto é um Gerenciador de Tarefas desenvolvido em Python, utilizando SQL
 - Python: Linguagem de programação principal para o desenvolvimento do backend.
 - SQLAlchemy: ORM para interação com o banco de dados, permitindo manipulação dos dados de forma simples e segura.
 - SQLite: Banco de dados relacional leve, ideal para pequenos projetos e fácil de configurar.
+
+## Requisitos do Projeto
+
+- Python 3.7+
+- SQLAlchemy
