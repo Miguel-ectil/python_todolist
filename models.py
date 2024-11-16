@@ -7,6 +7,8 @@ class Usuario(Base):
 
   id = Column(Integer, primary_key=True)
 
+  tarefas = relationship("Tarefa", back_populates="usuario")
+
 class Tarefa(Base):
   __tablename__ = 'tarefas
 
