@@ -9,3 +9,5 @@ class Usuario(Base):
 
 class Tarefa(Base):
   __tablename__ = 'tarefas
+
+  id = Column(Integer, primary_key=True)
