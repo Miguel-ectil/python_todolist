@@ -11,3 +11,6 @@ class Tarefa(Base):
   __tablename__ = 'tarefas
 
   id = Column(Integer, primary_key=True)
+  id_usuario = Column(Integer, ForeignKey('usuarios.id'))
+
+  usuario = relationship("Usuario", back_populates="tarefas")
