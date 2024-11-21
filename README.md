@@ -19,5 +19,5 @@ Este projeto é um Gerenciador de Tarefas desenvolvido em Python, utilizando SQL
 
 ## Requisitos do Projeto
 
-- Python 3.7+
+- Python 3.8+
 - SQLAlchemy
