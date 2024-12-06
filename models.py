@@ -6,15 +6,15 @@ class Usuario(Base):
   __tablename__ = 'usuarios'
 
   id = Column(Integer, primary_key=True)
-  name = Column(String, unique= False nullable=False)
-  gmail = Column(String, unique= False nullable= True)
+  name = Column(String, unique= False, nullable=False)
+  email = Column(String, unique= False, nullable= True)
   password = Column(String, unique=True, nullable=False)
 
 
   tarefas = relationship("Tarefa", back_populates="usuario")
 
 class Tarefa(Base):
-  __tablename__ = 'tarefas
+  __tablename__ = 'tarefas'
 
   id = Column(Integer, primary_key=True) 
   titulo = Column(String, nullable=False)
